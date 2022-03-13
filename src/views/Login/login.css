@@ -1,0 +1,37 @@
+body{
+  margin-top: 0%;
+}
+.login {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3279eb;
+  }
+  .login_container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #000000;
+    padding: 30px;
+  }
+  .login_btn {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(94, 94, 94);
+    cursor:pointer;
+  }
+  .login_google {
+    background-color: #4285f4;
+    cursor:pointer;
+  }
+  .login div {
+    margin-top: 7px;
+  }
+  .login h1{
+    color:#ffc14f;
+  }

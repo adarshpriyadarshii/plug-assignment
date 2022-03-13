@@ -1,0 +1,30 @@
+.navBar{
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    width: 100%;
+    background-color: rgb(151, 212, 247);
+    padding-top: 10px;
+    height:min-content;
+}
+.navBar-lft{
+    float:left;
+}
+.navBar-rgt{
+    float:right;
+}
+button{
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+    cursor:pointer;
+}
+.navBar-lft button{
+    background-color: rgb(74, 18, 230);
+}
+.navBar-rgt button{
+    background-color: rgb(0, 0, 0);
+}
+
